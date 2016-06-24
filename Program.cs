@@ -7,7 +7,9 @@ namespace LC_CountNumbersWithUniqueDigits
         public static void Main(string[] args)
         {
             //int count = CountNumbersWithUniqueDigits(2);
-            int count = CountNumbersWithUniqueDigits_Dynamic(1);
+            int count = CountNumbersWithUniqueDigits_Dynamic(0);
+            Console.WriteLine("10^0 = "+count);
+            count = CountNumbersWithUniqueDigits_Dynamic(1);
             Console.WriteLine("10^1 = "+count);
             count = CountNumbersWithUniqueDigits_Dynamic(2);
             Console.WriteLine("10^2 = "+count);
